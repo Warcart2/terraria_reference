@@ -217,6 +217,7 @@ public class TerrariaReferenceModVariables {
 			nbt.putDouble("LifeFruits", instance.LifeFruits);
 			nbt.putDouble("lavaResistMax", instance.lavaResistMax);
 			nbt.putDouble("Mana", instance.Mana);
+			nbt.putBoolean("mount", instance.mount);
 			return nbt;
 		}
 
@@ -234,6 +235,7 @@ public class TerrariaReferenceModVariables {
 			instance.LifeFruits = nbt.getDouble("LifeFruits");
 			instance.lavaResistMax = nbt.getDouble("lavaResistMax");
 			instance.Mana = nbt.getDouble("Mana");
+			instance.mount = nbt.getBoolean("mount");
 		}
 	}
 
@@ -249,6 +251,7 @@ public class TerrariaReferenceModVariables {
 		public double LifeFruits = 0;
 		public double lavaResistMax = 0;
 		public double Mana = 20.0;
+		public boolean mount = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -290,6 +293,7 @@ public class TerrariaReferenceModVariables {
 			clone.lavaResist = original.lavaResist;
 			clone.lavaResistMax = original.lavaResistMax;
 			clone.Mana = original.Mana;
+			clone.mount = original.mount;
 		}
 	}
 
@@ -325,6 +329,7 @@ public class TerrariaReferenceModVariables {
 					variables.LifeFruits = message.data.LifeFruits;
 					variables.lavaResistMax = message.data.lavaResistMax;
 					variables.Mana = message.data.Mana;
+					variables.mount = message.data.mount;
 				}
 			});
 			context.setPacketHandled(true);

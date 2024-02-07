@@ -368,9 +368,6 @@
       "locked_code": false,
       "registry_name": "go_back_1",
       "metadata": {
-        "files": [
-          "src/main/java/net/warcar/terrariareference/procedures/GoBack1Procedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -5245,6 +5242,73 @@
           "src/main/java/net/warcar/terrariareference/block/AetheriumBlockBlock.java"
         ]
       }
+    },
+    {
+      "name": "UseMount",
+      "type": "keybind",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_mount",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/keybind/UseMountKeyBinding.java"
+        ]
+      }
+    },
+    {
+      "name": "UseMountOnKeyPressed",
+      "type": "procedure",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "use_mount_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/UseMountOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MountEntityUpdateTick",
+      "type": "procedure",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mount_entity_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/MountEntityUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -5319,6 +5383,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "20.0"
+    },
+    {
+      "name": "mount",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -5417,6 +5487,7 @@
       "item.terraria_reference.nightmare_pickaxe": "Nightmare Pickaxe",
       "item.terraria_reference.fast_clock": "Быстрые часы",
       "item.terraria_reference.crimtane_bar": "Crimtane Bar",
+      "key.terraria_reference.use_mount": "Use Mount",
       "block.terraria_reference.shadewood_planks": "Shadewood Planks",
       "item.terraria_reference.shadow_armor_helmet": "Shadow Helmet",
       "item.terraria_reference.magma_scull": "Magma Scull",
@@ -5547,6 +5618,7 @@
       "item.terraria_reference.nightmare_pickaxe": "Nightmare Pickaxe",
       "item.terraria_reference.fast_clock": "Fast Clock",
       "item.terraria_reference.crimtane_bar": "Crimtane Bar",
+      "key.terraria_reference.use_mount": "Use Mount",
       "block.terraria_reference.shadewood_planks": "Shadewood Planks",
       "item.terraria_reference.shadow_armor_helmet": "Shadow Helmet",
       "item.terraria_reference.magma_scull": "Magma Scull",
