@@ -17,13 +17,15 @@ import net.minecraftforge.client.event.TextureStitchEvent;
 public class SlotsAdd {
 	@SubscribeEvent
 	public static void enqueueIMC(final InterModEnqueueEvent event) {
-		InterModComms.sendTo(CuriosApi.MODID, SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("accesory").size(5).cosmetic().priority(1).build());
-		InterModComms.sendTo(CuriosApi.MODID, SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("mount").size(1).priority(0).build());
+		InterModComms.sendTo(CuriosApi.MODID, SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("accesory").size(5).cosmetic().priority(0).build());
+		InterModComms.sendTo(CuriosApi.MODID, SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("mount").size(1).icon(new ResourceLocation(TerrariaReferenceMod.MODID, "screens/mount_empty"))
+																								.priority(1).build());
 		InterModComms.sendTo(CuriosApi.MODID, SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("hook").size(1).icon(new ResourceLocation(TerrariaReferenceMod.MODID, "screens/hook_empty"))
-																								.priority(0).build());
+																								.priority(1).build());
 	}
 	@SubscribeEvent
 	public static void icons(TextureStitchEvent.Pre evt){
 		evt.addSprite(new ResourceLocation(TerrariaReferenceMod.MODID, "screens/hook_empty"));
+		evt.addSprite(new ResourceLocation(TerrariaReferenceMod.MODID, "screens/mount_empty"));
 	}
 }
