@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "terraria_reference:demonite_bar"
+    },
+    "1": {
+      "item": "terraria_reference:demonite_bar"
+    },
+    "2": {
+      "item": "terraria_reference:demonite_bar"
+    },
+    "4": {
+      "item": "terraria_reference:shadow_scale"
+    },
+    "7": {
+      "item": "terraria_reference:shadow_scale"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:nightmare_pickaxe",
+    "count": 1
+  }
+}

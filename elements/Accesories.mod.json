@@ -1,0 +1,90 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LuckyHorseshoe"
+      },
+      {
+        "value": "CUSTOM:Aglet"
+      },
+      {
+        "value": "CUSTOM:AnkletOfTheWind"
+      },
+      {
+        "value": "CUSTOM:Bezoar"
+      },
+      {
+        "value": "CUSTOM:MilkSponge"
+      },
+      {
+        "value": "CUSTOM:GoldenBezoar"
+      },
+      {
+        "value": "CUSTOM:FastClock"
+      },
+      {
+        "value": "CUSTOM:Vitamines"
+      },
+      {
+        "value": "CUSTOM:Blindfold.helmet"
+      },
+      {
+        "value": "CUSTOM:UltiMines"
+      },
+      {
+        "value": "CUSTOM:ObsidianScull"
+      },
+      {
+        "value": "CUSTOM:LavaCharm"
+      },
+      {
+        "value": "CUSTOM:MagmaScull"
+      },
+      {
+        "value": "CUSTOM:ObsidianRose"
+      },
+      {
+        "value": "CUSTOM:MoltenScullRose"
+      },
+      {
+        "value": "CUSTOM:Nazar"
+      },
+      {
+        "value": "CUSTOM:HermesBoots"
+      },
+      {
+        "value": "CUSTOM:RocketBoots"
+      },
+      {
+        "value": "CUSTOM:SpectreBoots"
+      },
+      {
+        "value": "CUSTOM:LightningBoots"
+      },
+      {
+        "value": "CUSTOM:DuneriderBoots"
+      },
+      {
+        "value": "CUSTOM:SandstormBoots"
+      },
+      {
+        "value": "CUSTOM:LavaWanders"
+      },
+      {
+        "value": "CUSTOM:WaterWalkingBoots"
+      },
+      {
+        "value": "CUSTOM:TerrasparkBoots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "accesory",
+    "namespace": "curios"
+  }
+}

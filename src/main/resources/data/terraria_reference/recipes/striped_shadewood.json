@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "terraria_reference:striped_shadewood_log"
+    },
+    "1": {
+      "item": "terraria_reference:striped_shadewood_log"
+    },
+    "2": {
+      "item": "terraria_reference:striped_shadewood_log"
+    },
+    "3": {
+      "item": "terraria_reference:striped_shadewood_log"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:striped_shadewood",
+    "count": 3
+  }
+}

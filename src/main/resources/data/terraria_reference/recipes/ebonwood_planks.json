@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "terraria_reference:ebonwood_logs"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:ebonwood_planks",
+    "count": 4
+  }
+}

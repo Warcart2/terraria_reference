@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "terraria_reference:blocks/jungle_spores",
+    "particle": "terraria_reference:blocks/jungle_spores"
+  }
+}

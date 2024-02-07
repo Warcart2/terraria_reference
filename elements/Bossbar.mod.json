@@ -1,0 +1,64 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bossbar_base.png",
+          "use1Xscale": false,
+          "x": 87,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_t",
+          "text": {
+            "fixedValue": "t",
+            "name": "BossbarValue"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ui_bossbar.png",
+          "use1Xscale": false,
+          "x": 105,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bossbar_cap.png",
+          "use1Xscale": false,
+          "x": 87,
+          "y": 188
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "IfBoss"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

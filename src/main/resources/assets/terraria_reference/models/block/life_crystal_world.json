@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "terraria_reference:blocks/life_crystal",
+    "particle": "terraria_reference:blocks/life_crystal"
+  }
+}

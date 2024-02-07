@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria_reference:fast_clock"
+    },
+    {
+      "item": "terraria_reference:vitamines"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:ulti_mines",
+    "count": 1
+  }
+}

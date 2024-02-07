@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "terraria_reference:blocks/shadewood_log_top",
+    "up": "terraria_reference:blocks/shadewood_log_top",
+    "north": "terraria_reference:blocks/shadewood_log",
+    "east": "terraria_reference:blocks/shadewood_log",
+    "south": "terraria_reference:blocks/shadewood_log",
+    "west": "terraria_reference:blocks/shadewood_log",
+    "particle": "terraria_reference:blocks/shadewood_log_top"
+  }
+}

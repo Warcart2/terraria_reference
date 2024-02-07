@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "terraria_reference:crimtane_bar"
+    },
+    "1": {
+      "item": "terraria_reference:crimtane_bar"
+    },
+    "2": {
+      "item": "terraria_reference:crimtane_bar"
+    },
+    "4": {
+      "item": "terraria_reference:tissue_sample"
+    },
+    "7": {
+      "item": "terraria_reference:tissue_sample"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:deathbringer_pickaxe",
+    "count": 1
+  }
+}

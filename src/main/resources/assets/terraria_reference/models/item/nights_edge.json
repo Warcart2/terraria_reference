@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "terraria_reference:items/nights_edge"
+  }
+}

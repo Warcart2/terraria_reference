@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "terraria_reference:striped_ebonwood_log"
+    },
+    "1": {
+      "item": "terraria_reference:striped_ebonwood_log"
+    },
+    "2": {
+      "item": "terraria_reference:striped_ebonwood_log"
+    },
+    "3": {
+      "item": "terraria_reference:striped_ebonwood_log"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:striped_ebonwood",
+    "count": 3
+  }
+}

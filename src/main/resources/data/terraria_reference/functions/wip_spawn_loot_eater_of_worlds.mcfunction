@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot terraria_reference:entities/eater_of_worlds_win

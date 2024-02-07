@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "terraria_reference:blocks/grass_bottom",
+    "top": "terraria_reference:blocks/corruption_grass_top",
+    "side": "terraria_reference:blocks/grass_bottom",
+    "overlay": "terraria_reference:blocks/corruption_overlay",
+    "particle": "terraria_reference:blocks/grass_bottom"
+  }
+}

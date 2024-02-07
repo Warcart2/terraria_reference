@@ -1,0 +1,46 @@
+{
+  "group": "terraria_reference",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "1": {
+      "item": "minecraft:brick"
+    },
+    "2": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "3": {
+      "item": "minecraft:brick"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "minecraft:brick"
+    },
+    "6": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "7": {
+      "item": "minecraft:brick"
+    },
+    "8": {
+      "item": "minecraft:dye",
+      "data": 15
+    }
+  },
+  "result": {
+    "item": "terraria_reference:magicconch",
+    "count": 1
+  }
+}

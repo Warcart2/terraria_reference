@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "terraria_reference:blocks/crimstone_block",
+    "particle": "terraria_reference:blocks/crimstone_block"
+  }
+}

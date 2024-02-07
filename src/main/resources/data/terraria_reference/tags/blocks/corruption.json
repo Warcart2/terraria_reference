@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "terraria_reference:ebonwood_planks",
+    "terraria_reference:ebonwood_log",
+    "terraria_reference:striped_ebonwood_log",
+    "terraria_reference:striped_ebonwood",
+    "terraria_reference:ebonstone",
+    "terraria_reference:ebonwood",
+    "terraria_reference:corruption_grass"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 39,
+  "_type": "attribute",
+  "definition": {
+    "description": "Hp Regen",
+    "minValue": 0.0,
+    "maxValue": 32.0,
+    "defaultValue": 1.0,
+    "isPersistent": false,
+    "entities": [
+      {
+        "value": "EntityPlayer"
+      }
+    ]
+  }
+}

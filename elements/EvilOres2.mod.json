@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DemoniteOre"
+      },
+      {
+        "value": "CUSTOM:CrimtaneOre"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "evil_ores",
+    "namespace": "mod"
+  }
+}

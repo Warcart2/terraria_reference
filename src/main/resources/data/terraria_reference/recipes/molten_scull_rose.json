@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria_reference:magma_scull"
+    },
+    {
+      "item": "terraria_reference:obsidian_rose"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:molten_scull_rose",
+    "count": 1
+  }
+}

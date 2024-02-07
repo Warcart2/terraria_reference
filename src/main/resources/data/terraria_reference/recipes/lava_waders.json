@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria_reference:molten_scull_rose"
+    },
+    {
+      "item": "terraria_reference:water_walking_boots"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:lava_wanders",
+    "count": 1
+  }
+}

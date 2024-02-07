@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "attribute",
+  "definition": {
+    "description": "Critical Strike Chance",
+    "minValue": 0.0,
+    "maxValue": 100.0,
+    "defaultValue": 4.0,
+    "isPersistent": true,
+    "entities": [
+      {
+        "value": "EntityPlayer"
+      },
+      {
+        "value": "EntityPlayerMP"
+      }
+    ]
+  }
+}

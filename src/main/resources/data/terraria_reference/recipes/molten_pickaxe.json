@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "terraria_reference:hellstone_bar"
+    },
+    "1": {
+      "item": "terraria_reference:hellstone_bar"
+    },
+    "2": {
+      "item": "terraria_reference:hellstone_bar"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:molten_pickaxe",
+    "count": 1
+  }
+}

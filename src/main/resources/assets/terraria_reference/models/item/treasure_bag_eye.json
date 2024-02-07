@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "terraria_reference:items/treasure_bag_eye_of_cthulhu"
+  }
+}

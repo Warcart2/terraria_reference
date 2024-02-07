@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "command",
+  "definition": {
+    "commandName": "modifier",
+    "permissionLevel": "1",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"60\" y=\"57\"><next><block type=\"string\"><field name=\"type\">string</field><field name=\"name\">name</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ModifierSet</field></block></statement></block></next></block></xml>"
+  }
+}

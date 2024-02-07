@@ -1,0 +1,49 @@
+{
+  "_fv": 39,
+  "_type": "fluid",
+  "definition": {
+    "name": "Shimmer",
+    "bucketName": "Botomless Shimmer Bucket",
+    "textureStill": "shimmer_still",
+    "textureFlowing": "shimmer_still",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 4,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": -1.0,
+    "luminosity": 5,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 275,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "bottomless_shimmer_bucket",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 5,
+    "lightOpacity": 15,
+    "emissiveRendering": false,
+    "tickRate": 2,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "onTickUpdate": {
+      "name": "ShimmerNeighbourBlockChanges"
+    },
+    "onEntityCollides": {
+      "name": "ShimmerMobplayerCollidesBlock"
+    }
+  }
+}

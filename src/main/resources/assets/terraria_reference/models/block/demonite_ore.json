@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "terraria_reference:blocks/demonite_ore",
+    "up": "terraria_reference:blocks/demonite_ore",
+    "north": "terraria_reference:blocks/demonite_ore",
+    "east": "terraria_reference:blocks/demonite_ore",
+    "south": "terraria_reference:blocks/demonite_ore",
+    "west": "terraria_reference:blocks/demonite_ore",
+    "particle": "terraria_reference:blocks/demonite_ore"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "terraria_reference:shadewood_log",
+    "terraria_reference:striped_shadewood_log",
+    "terraria_reference:shadewood",
+    "terraria_reference:striped_shadewood"
+  ]
+}

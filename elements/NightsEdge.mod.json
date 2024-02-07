@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "nights_edge",
+    "customModelName": "Normal",
+    "name": "Night's Edge",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 3.0,
+    "enchantability": 16,
+    "damageVsEntity": 38.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "NightsEdgeLivingEntityIsHitWithTool"
+    },
+    "onEntitySwing": {
+      "name": "NightsEdgeEntitySwingsItem"
+    }
+  }
+}

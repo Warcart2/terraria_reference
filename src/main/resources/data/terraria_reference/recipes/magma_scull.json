@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria_reference:obsidian_scull"
+    },
+    {
+      "item": "terraria_reference:lava_charm"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:magma_scull",
+    "count": 1
+  }
+}

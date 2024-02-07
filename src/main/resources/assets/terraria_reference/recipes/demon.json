@@ -1,0 +1,42 @@
+{
+  "group": "terraria_reference",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_wart"
+    },
+    "1": {
+      "item": "minecraft:netherbrick"
+    },
+    "2": {
+      "item": "minecraft:nether_wart"
+    },
+    "3": {
+      "item": "minecraft:netherbrick"
+    },
+    "4": {
+      "item": "minecraft:lava_bucket"
+    },
+    "5": {
+      "item": "minecraft:netherbrick"
+    },
+    "6": {
+      "item": "minecraft:nether_wart"
+    },
+    "7": {
+      "item": "minecraft:netherbrick"
+    },
+    "8": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:demonconch",
+    "count": 1
+  }
+}

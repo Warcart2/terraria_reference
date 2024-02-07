@@ -1,0 +1,42 @@
+{
+  "group": "terraria_reference",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chorus_fruit_popped"
+    },
+    "1": {
+      "item": "minecraft:end_bricks"
+    },
+    "2": {
+      "item": "minecraft:chorus_fruit_popped"
+    },
+    "3": {
+      "item": "minecraft:end_bricks"
+    },
+    "4": {
+      "item": "terraria_reference:magicconch"
+    },
+    "5": {
+      "item": "minecraft:end_bricks"
+    },
+    "6": {
+      "item": "minecraft:chorus_fruit_popped"
+    },
+    "7": {
+      "item": "minecraft:end_bricks"
+    },
+    "8": {
+      "item": "minecraft:chorus_fruit_popped"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:enderconch",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 39,
+  "_type": "attribute",
+  "definition": {
+    "description": "Mana Regeneration",
+    "minValue": 1.0,
+    "maxValue": 10.0,
+    "defaultValue": 1.0,
+    "isPersistent": true,
+    "entities": [
+      {
+        "value": "EntityPlayer"
+      }
+    ]
+  }
+}

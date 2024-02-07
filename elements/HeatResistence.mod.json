@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_heat_resistence_value",
+          "text": {
+            "fixedValue": "",
+            "name": "HeatResistenceValue"
+          },
+          "color": {
+            "value": -4367360,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ConditionsHeatResistence"
+          },
+          "x": 209,
+          "y": 100
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

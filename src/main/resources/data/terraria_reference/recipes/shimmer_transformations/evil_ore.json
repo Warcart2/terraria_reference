@@ -1,0 +1,11 @@
+{
+  "type": "terraria_reference:shimmer_transformation",
+  "ingredients": [
+    {
+      "item": "terraria_reference:demonite_ore"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:crimtane_ore"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "function",
+  "definition": {
+    "code": "loot spawn ~ ~ ~ loot terraria_reference:entities/brain_of_cthulhu\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper\nloot spawn ~ ~ ~ loot terraria_reference:entities/creeper",
+    "name": "wip_spawn_loot_brain_of_cthulhu",
+    "namespace": "mod"
+  }
+}

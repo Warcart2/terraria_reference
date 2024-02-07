@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ShadewoodLog"
+      },
+      {
+        "value": "CUSTOM:ShadewoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ShadewoodLog"
+      },
+      {
+        "value": "CUSTOM:ShadewoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Shadewood"
+    },
+    "name": "shadewood",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "terraria_reference:stinger"
+    },
+    "3": {
+      "item": "terraria_reference:jungle_spore"
+    },
+    "4": {
+      "item": "terraria_reference:stinger"
+    },
+    "6": {
+      "item": "terraria_reference:vine"
+    },
+    "7": {
+      "item": "terraria_reference:jungle_spore"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:blade_of_grass",
+    "count": 1
+  }
+}

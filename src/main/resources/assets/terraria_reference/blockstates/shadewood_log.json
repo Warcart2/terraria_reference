@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "terraria_reference:block/shadewood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "terraria_reference:block/shadewood_log"
+    },
+    "axis=z": {
+      "model": "terraria_reference:block/shadewood_log",
+      "x": 90
+    }
+  }
+}

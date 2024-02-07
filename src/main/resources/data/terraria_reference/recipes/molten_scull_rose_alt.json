@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria_reference:obsidian_rose"
+    },
+    {
+      "item": "terraria_reference:lava_charm"
+    },
+    {
+      "item": "terraria_reference:obsidian_scull"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:molten_scull_rose",
+    "count": 1
+  }
+}

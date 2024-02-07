@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "function",
+  "definition": {
+    "code": "loot spawn ~ ~ ~ loot terraria_reference:entities/eater_of_worlds_win",
+    "name": "wip_spawn_loot_eater_of_worlds",
+    "namespace": "mod"
+  }
+}

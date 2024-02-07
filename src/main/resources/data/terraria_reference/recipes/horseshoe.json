@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_nugget"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:gold_nugget"
+    },
+    "3": {
+      "item": "minecraft:gold_ingot"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:lucky_horseshoe",
+    "count": 1
+  }
+}

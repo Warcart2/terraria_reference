@@ -1,0 +1,7 @@
+{
+  "_fv": 39,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Number\" id=\"rand\">rand</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">item_crafted</field><next><block type=\"variables_set_number\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\">local:rand</field><value name=\"VAL\"><block type=\"math_random_int_between\"><value name=\"min\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"max\"><block type=\"java_code_get\"><field name=\"CODE\">AllItemModifiersProcedure.All.size()</field></block></value></block></value><next><block type=\"item_nbt_text_set\"><value name=\"tagName\"><block type=\"text\"><field name=\"TEXT\">modifier</field></block></value><value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value><value name=\"tagValue\"><block type=\"java_code_get\"><field name=\"CODE\">AllItemModifiersProcedure.All.keySet().toArray()[rand]</field></block></value></block></next></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 39,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Rocketboots Fly Key",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "RocketbootsFlyKeyOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "RocketbootsFlyKeyOnKeyReleased"
+    }
+  }
+}

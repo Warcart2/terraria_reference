@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria_reference:fallen_star"
+    },
+    {
+      "item": "terraria_reference:fallen_star"
+    },
+    {
+      "item": "terraria_reference:fallen_star"
+    },
+    {
+      "item": "terraria_reference:fallen_star"
+    },
+    {
+      "item": "terraria_reference:fallen_star"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:mana_crystall",
+    "count": 1
+  }
+}

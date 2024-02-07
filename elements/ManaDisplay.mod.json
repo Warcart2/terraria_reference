@@ -1,0 +1,45 @@
+{
+  "_fv": 39,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "mana_icon_2.png",
+          "use1Xscale": false,
+          "x": 402,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mana_icon_1.png",
+          "use1Xscale": false,
+          "x": 402,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mana_icon_2.png",
+          "use1Xscale": false,
+          "x": 384,
+          "y": 8
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

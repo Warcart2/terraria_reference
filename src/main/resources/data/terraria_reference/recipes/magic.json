@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone_meal"
+    },
+    "1": {
+      "item": "minecraft:brick"
+    },
+    "2": {
+      "item": "minecraft:bone_meal"
+    },
+    "3": {
+      "item": "minecraft:brick"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "minecraft:brick"
+    },
+    "6": {
+      "item": "minecraft:bone_meal"
+    },
+    "7": {
+      "item": "minecraft:brick"
+    },
+    "8": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:magic_conch",
+    "count": 1
+  }
+}

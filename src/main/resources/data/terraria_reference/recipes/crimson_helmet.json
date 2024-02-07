@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI"
+  ],
+  "key": {
+    "S": {
+      "item": "terraria_reference:tissue_sample"
+    },
+    "I": {
+      "tag": "forge:ingots/crimtane"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:crimson_armor_helmet"
+  }
+}

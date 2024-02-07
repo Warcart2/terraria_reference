@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "terraria_reference:terraspark_boots"
+    },
+    "title": {
+      "translate": "advancements.boots_of_the_hero.title"
+    },
+    "description": {
+      "translate": "advancements.boots_of_the_hero.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "boots_of_the_hero": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "terraria_reference:terraspark_boots",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "terraria_reference:root"
+}

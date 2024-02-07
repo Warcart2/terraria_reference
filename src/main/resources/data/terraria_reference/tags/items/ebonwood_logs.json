@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "terraria_reference:ebonwood_log",
+    "terraria_reference:striped_ebonwood_log",
+    "terraria_reference:striped_ebonwood",
+    "terraria_reference:ebonwood"
+  ]
+}

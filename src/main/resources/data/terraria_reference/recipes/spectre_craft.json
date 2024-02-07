@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria_reference:hermes_boots"
+    },
+    {
+      "item": "terraria_reference:rocket_boots"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:spectre_boots",
+    "count": 1
+  }
+}

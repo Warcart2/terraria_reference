@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI",
+    "ISI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/demonite"
+    },
+    "S": {
+      "item": "terraria_reference:shadow_scale"
+    }
+  },
+  "result": {
+    "item": "terraria_reference:shadow_armor_leggings"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 39,
+  "_type": "attribute",
+  "definition": {
+    "description": "Maximum Mana",
+    "minValue": 1.0,
+    "maxValue": 512.0,
+    "defaultValue": 20.0,
+    "isPersistent": false,
+    "entities": [
+      {
+        "value": "EntityPlayer"
+      }
+    ]
+  }
+}

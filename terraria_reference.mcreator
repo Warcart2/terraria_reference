@@ -1,0 +1,5617 @@
+{
+  "mod_elements": [
+    {
+      "name": "MagicMirror",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_mirror",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/magic_mirror.json",
+          "src/main/java/net/warcar/terrariareference/item/MagicMirrorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicMirrorRightClickedInAir",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_mirror_right_clicked_in_air",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/MagicMirrorRightClickedInAirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/PlayerTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirror",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/mirror.json"
+        ]
+      }
+    },
+    {
+      "name": "DemonConch",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/DemonConchItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/demon_conch.json"
+        ]
+      }
+    },
+    {
+      "name": "DemonConchRightClickedInAir",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/DemonConchRightClickedInAirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HellSpawn",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/HellSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Demon",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/demon.json"
+        ]
+      }
+    },
+    {
+      "name": "OceanFinder",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/OceanFinderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicConch",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/MagicConchItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/magic_conch.json"
+        ]
+      }
+    },
+    {
+      "name": "Magic",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/magic.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckyHorseshoe",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/LuckyHorseshoeItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/lucky_horseshoe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoFallDamage",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/NoFallDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Horseshoe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/horseshoe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderConch",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/ender_conch.json",
+          "src/main/java/net/warcar/terrariareference/item/EnderConchItem.java"
+        ]
+      }
+    },
+    {
+      "name": "End",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/end.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderConchRightClickedInAir",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/EnderConchRightClickedInAirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndSpawn",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/EndSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionOfReturnEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_return_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/PotionOfReturnEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoBack",
+      "type": "command",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_back",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/command/GoBackCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "GoBack1",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_back_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/GoBack1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReturnPotion",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_potion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/return_potion.json",
+          "src/main/java/net/warcar/terrariareference/item/ReturnPotionItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RPCraft",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rp_craft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/RPCraftBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "HermesBootsTickEvent",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hermes_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/HermesBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RocketbootsFlyKey",
+      "type": "keybind",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocketboots_fly_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/keybind/RocketbootsFlyKeyKeyBinding.java"
+        ]
+      }
+    },
+    {
+      "name": "RocketbootsFlyKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocketboots_fly_key_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/RocketbootsFlyKeyOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RocketbootsFlyKeyOnKeyReleased",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocketboots_fly_key_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/RocketbootsFlyKeyOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlyHigh",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_high",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/FlyHighProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpectreCraft",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectre_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/spectre_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Aglet",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aglet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/aglet.json",
+          "src/main/java/net/warcar/terrariareference/item/AgletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnkletOfTheWind",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anklet_of_the_wind",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/anklet_of_the_wind.json",
+          "src/main/java/net/warcar/terrariareference/item/AnkletOfTheWindItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnkletOfTheWindOrAgletItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "anklet_of_the_wind_or_aglet_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/AnkletOfTheWindOrAgletItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AnkletSpawn",
+      "type": "loottable",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "anklet_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/jungle_temple.json"
+        ]
+      }
+    },
+    {
+      "name": "AgletCraft",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aglet_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/aglet.json"
+        ]
+      }
+    },
+    {
+      "name": "IronSkin",
+      "type": "potion",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_skin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/potion/IronSkinPotion.java"
+        ]
+      }
+    },
+    {
+      "name": "ISC",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/ISCBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "BezoarItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bezoar_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BezoarItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "slot",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bezoar",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bezoar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/BezoarItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/bezoar.json"
+        ]
+      }
+    },
+    {
+      "name": "PlayerTick2",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tick_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/PlayerTick2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MilkSponge",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_sponge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/MilkSpongeItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/milk_sponge.json"
+        ]
+      }
+    },
+    {
+      "name": "IsInHotbar",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_in_hotbar",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/IsInHotbarProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "slot",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MilkSpongeItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_sponge_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/MilkSpongeItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "slot",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MilkSpongeRightclicked",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_sponge_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/MilkSpongeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoWitherDamage",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_wither_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/NoWitherDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenBezoarItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bezoar_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/GoldenBezoarItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "slot",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenBezoar",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bezoar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/golden_bezoar.json",
+          "src/main/java/net/warcar/terrariareference/item/GoldenBezoarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GBCraft",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gb_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/golden_bezoar.json"
+        ]
+      }
+    },
+    {
+      "name": "MSCraft",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ms_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/milk_sponge.json"
+        ]
+      }
+    },
+    {
+      "name": "BezoarR",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bezoar_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/bezoar.json"
+        ]
+      }
+    },
+    {
+      "name": "FastClock",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_clock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/FastClockItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/fast_clock.json"
+        ]
+      }
+    },
+    {
+      "name": "FastClockItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_clock_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/FastClockItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "slot",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vitamines",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vitamines",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/vitamines.json",
+          "src/main/java/net/warcar/terrariareference/item/VitaminesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VitaminesItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vitamines_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/VitaminesItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "slot",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VitaminesR",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vitamines_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/vitamines.json"
+        ]
+      }
+    },
+    {
+      "name": "FastClockR",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_clock_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/fast_clock.json"
+        ]
+      }
+    },
+    {
+      "name": "Blindfold",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindfold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/BlindfoldItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/blindfold_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "BlindfoldHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindfold_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BlindfoldHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UltiMines",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ulti_mines",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/ulti_mines.json",
+          "src/main/java/net/warcar/terrariareference/item/UltiMinesItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UltiMinesItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ulti_mines_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/UltiMinesItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "slot",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DuneriderBootsTickEvent",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dunerider_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/DuneriderBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SandstormR",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstorm_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/sandstorm.json"
+        ]
+      }
+    },
+    {
+      "name": "UltiMinesR",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ulti_mines_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/ulti_mines.json"
+        ]
+      }
+    },
+    {
+      "name": "WalkOnFluidTick",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "walk_on_fluid_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/WalkOnFluidTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WW",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ww",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/WWProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterWalkingBootsTickEvent",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_walking_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/WaterWalkingBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianScull",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_scull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/ObsidianScullItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/obsidian_scull.json"
+        ]
+      }
+    },
+    {
+      "name": "NoHeatedDamage",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_heated_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/NoHeatedDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaCharm",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_charm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/lava_charm.json",
+          "src/main/java/net/warcar/terrariareference/item/LavaCharmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HeatResistence",
+      "type": "overlay",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_resistence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/gui/overlay/HeatResistenceOverlay.java"
+        ]
+      },
+      "path": "~/heat overlay"
+    },
+    {
+      "name": "LavaCharmItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lava_charm_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/LavaCharmItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoLavaDamage",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_lava_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/NoLavaDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeatResistenceValue",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heat_resistence_value",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/HeatResistenceValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/heat overlay"
+    },
+    {
+      "name": "ConditionsHeatResistence",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conditions_heat_resistence",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ConditionsHeatResistenceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/heat overlay"
+    },
+    {
+      "name": "MagmaScull",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_scull",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/magma_scull.json",
+          "src/main/java/net/warcar/terrariareference/item/MagmaScullItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianScullR",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "obsidian_scull_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/obsidian_scull.json"
+        ]
+      }
+    },
+    {
+      "name": "MagmaScullR",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_scull_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/magma_scull.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianRose",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_rose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/ObsidianRoseItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/obsidian_rose.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenScullRose",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_scull_rose",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/molten_scull_rose.json",
+          "src/main/java/net/warcar/terrariareference/item/MoltenScullRoseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MoltenScullRoseR1",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_scull_rose_r_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/molten_scull_rose.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenScullRoseR2",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_scull_rose_r_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/molten_scull_rose_alt.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaWadersTickEvent",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_waders_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/LavaWadersTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaWadersR",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_waders_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/lava_waders.json"
+        ]
+      }
+    },
+    {
+      "name": "TerrasparkBootsTickEvent",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terraspark_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/TerrasparkBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nazar",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nazar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/NazarItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/nazar.json"
+        ]
+      }
+    },
+    {
+      "name": "NazarItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nazar_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/NazarItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "slot",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoMagicDamage",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_magic_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/NoMagicDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NazarGet",
+      "type": "loottable",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nazar_get",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ender_dragon.json"
+        ]
+      }
+    },
+    {
+      "name": "ItemModifier",
+      "type": "code",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "item_modifier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/ItemModifier.java"
+        ]
+      }
+    },
+    {
+      "name": "AllItemModifiers",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "all_item_modifiers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/AllItemModifiersProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ItemModifierApply",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "item_modifier_apply",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/ItemModifierApplyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemModifierApply2",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_modifier_apply_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ItemModifierApply2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModifiersGet",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "modifiers_get",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/ModifiersGetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterWalkingBootsGet",
+      "type": "loottable",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "water_walking_boots_get",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/buried_treasure.json"
+        ]
+      }
+    },
+    {
+      "name": "Vine",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/vine.json",
+          "src/main/java/net/warcar/terrariareference/item/VineItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JungleSporeOrb",
+      "type": "plant",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_spore_orb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/jungle_spore_orb.json",
+          "src/main/resources/assets/terraria_reference/models/block/jungle_spore_orb.json",
+          "src/main/java/net/warcar/terrariareference/block/JungleSporeOrbBlock.java",
+          "src/main/resources/assets/terraria_reference/blockstates/jungle_spore_orb.json"
+        ]
+      }
+    },
+    {
+      "name": "JungleSpore",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_spore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/jungle_spore.json",
+          "src/main/java/net/warcar/terrariareference/item/JungleSporeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JungBreak",
+      "type": "loottable",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jung_break",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/loot_tables/blocks/jungle_spore_orb.json"
+        ]
+      }
+    },
+    {
+      "name": "Stinger",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stinger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/StingerItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/stinger.json"
+        ]
+      }
+    },
+    {
+      "name": "Wasp",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/wasp_spawn_egg.json",
+          "src/main/java/net/warcar/terrariareference/entity/WaspEntity.java",
+          "src/main/java/net/warcar/terrariareference/entity/renderer/WaspRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "WaspEntityShakingCondition",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasp_entity_shaking_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/WaspEntityShakingConditionProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "WaspPoison",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasp_poison",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/WaspPoisonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BladeOfGrass",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_of_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/BladeOfGrassItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/blade_of_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "BladeOfGrassLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_of_grass_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BladeOfGrassLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BladeOfGrassR",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_of_grass_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/blade_of_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "IsTool",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "is_tool",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/IsToolProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Modifier",
+      "type": "command",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modifier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/command/ModifierCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ModifierSet",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "modifier_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ModifierSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HellstoneBar",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hellstone_bar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/HellstoneBarItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/hellstone_bar.json"
+        ]
+      }
+    },
+    {
+      "name": "HellstoneT",
+      "type": "tag",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hellstone_t",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/hellstone.json"
+        ]
+      }
+    },
+    {
+      "name": "DemoniteOre",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/demonite_ore.json",
+          "src/main/java/net/warcar/terrariareference/block/DemoniteOreBlock.java",
+          "src/main/resources/assets/terraria_reference/blockstates/demonite_ore.json",
+          "src/main/resources/assets/terraria_reference/models/block/demonite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimtaneOre",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimtane_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/block/CrimtaneOreBlock.java",
+          "src/main/resources/assets/terraria_reference/models/block/crimtane_ore.json",
+          "src/main/resources/assets/terraria_reference/models/item/crimtane_ore.json",
+          "src/main/resources/assets/terraria_reference/blockstates/crimtane_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Ores",
+      "type": "tag",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ores.json"
+        ]
+      }
+    },
+    {
+      "name": "Ores2",
+      "type": "tag",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/ores.json"
+        ]
+      }
+    },
+    {
+      "name": "OresDemonite",
+      "type": "tag",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_demonite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ores/demonite.json"
+        ]
+      }
+    },
+    {
+      "name": "OresDemonite2",
+      "type": "tag",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_demonite_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/ores/demonite.json"
+        ]
+      }
+    },
+    {
+      "name": "OresCrimtane",
+      "type": "tag",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_crimtane",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ores/crimtane.json"
+        ]
+      }
+    },
+    {
+      "name": "OresCrimtane2",
+      "type": "tag",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_crimtane_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/ores/crimtane.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilOres",
+      "type": "tag",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_ores",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/tags/items/evil_ores.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilOres2",
+      "type": "tag",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_ores_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/tags/blocks/evil_ores.json"
+        ]
+      }
+    },
+    {
+      "name": "Volcano",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcano",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/VolcanoItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/volcano.json"
+        ]
+      }
+    },
+    {
+      "name": "VolcanoLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volcano_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/VolcanoLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Volcano2",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "volcano_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/volcano.json"
+        ]
+      }
+    },
+    {
+      "name": "DemoniteBar",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonite_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/demonite_bar.json",
+          "src/main/java/net/warcar/terrariareference/item/DemoniteBarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrimtaneBar",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimtane_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/crimtane_bar.json",
+          "src/main/java/net/warcar/terrariareference/item/CrimtaneBarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DemoniteBar2",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonite_bar_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/demonite_bar.json"
+        ]
+      }
+    },
+    {
+      "name": "Ingots",
+      "type": "tag",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots.json"
+        ]
+      }
+    },
+    {
+      "name": "Demonite",
+      "type": "tag",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/demonite.json"
+        ]
+      }
+    },
+    {
+      "name": "Crimtane",
+      "type": "tag",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimtane",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/ingots/crimtane.json"
+        ]
+      }
+    },
+    {
+      "name": "DemoniteBar3",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonite_bar_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/demonite_bar_alt.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimtaneBar2",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimtane_bar_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/crimtane_bar.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimtaneBarAlt",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimtane_bar_alt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/crimtane_bar_alt.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilIngots",
+      "type": "tag",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/tags/items/evil_ingots.json"
+        ]
+      }
+    },
+    {
+      "name": "Hellstone",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hellstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/block/HellstoneBlock.java",
+          "src/main/resources/assets/terraria_reference/blockstates/hellstone.json",
+          "src/main/resources/assets/terraria_reference/models/item/hellstone.json",
+          "src/main/resources/assets/terraria_reference/models/block/hellstone.json"
+        ]
+      }
+    },
+    {
+      "name": "HellstoneEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hellstone_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/HellstoneEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HellstoneBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hellstone_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/HellstoneBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HellstoneBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hellstone_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/HellstoneBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SegmentsLogic",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "segments_logic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/SegmentsLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EaterOfWorlds",
+      "type": "livingentity",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eater_of_worlds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/entity/renderer/EaterOfWorldsRenderer.java",
+          "src/main/java/net/warcar/terrariareference/entity/EaterOfWorldsEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "IfPrev",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_prev",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/IfPrevProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightmarePickaxe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/NightmarePickaxeItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/nightmare_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeathbringerPickaxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbringer_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/deathbringer_pickaxe.json",
+          "src/main/java/net/warcar/terrariareference/item/DeathbringerPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NightmarePickaxe2",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_pickaxe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/nightmare_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeathbringerPickaxe2",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathbringer_pickaxe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/deathbringer_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "HellstoneBar1",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hellstone_bar_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/hellstone_bar.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenPickaxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/MoltenPickaxeItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/molten_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenPickaxe1",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_pickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/molten_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodButcher",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_butcher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/BloodButcherItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/blood_butcher.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodButcher1",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_butcher_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/blood_butcher.json"
+        ]
+      }
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/potion/BleedingPotionEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "BleedingOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BleedingOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BleedingActiveTickCondition",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_active_tick_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BleedingActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodButcherLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_butcher_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BloodButcherLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvilSwords",
+      "type": "tag",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_swords",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/evil_swords.json"
+        ]
+      }
+    },
+    {
+      "name": "Muramasa",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muramasa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/muramasa.json",
+          "src/main/java/net/warcar/terrariareference/item/MuramasaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NightsEdge",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nights_edge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/NightsEdgeItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/nights_edge.json"
+        ]
+      }
+    },
+    {
+      "name": "NightsEdgeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nights_edge_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/NightsEdgeLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightsEdge1",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nights_edge_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/nights_edge.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadowScale",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_scale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/ShadowScaleItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/shadow_scale.json"
+        ]
+      }
+    },
+    {
+      "name": "EvilBossDrop",
+      "type": "tag",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_boss_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/tags/items/evil_boss_drop.json"
+        ]
+      }
+    },
+    {
+      "name": "EaterOfWorldsLoot",
+      "type": "loottable",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eater_of_worlds_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/loot_tables/entities/eater_of_worlds_win.json"
+        ]
+      }
+    },
+    {
+      "name": "TissueSample",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tissue_sample",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/tissue_sample.json",
+          "src/main/java/net/warcar/terrariareference/item/TissueSampleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Creeper",
+      "type": "loottable",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/loot_tables/entities/creeper.json"
+        ]
+      }
+    },
+    {
+      "name": "BrainOfCthulhuLoot",
+      "type": "loottable",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brain_of_cthulhu_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/loot_tables/entities/brain_of_cthulhu.json"
+        ]
+      }
+    },
+    {
+      "name": "WormFood",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worm_food",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/worm_food.json",
+          "src/main/java/net/warcar/terrariareference/item/WormFoodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WormFoodRightclicked",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worm_food_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/WormFoodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WIPSpawnLootEaterOfWorlds",
+      "type": "function",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wip_spawn_loot_eater_of_worlds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/functions/wip_spawn_loot_eater_of_worlds.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "WIPSpawnLootBrainOfCthulhu",
+      "type": "function",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wip_spawn_loot_brain_of_cthulhu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/functions/wip_spawn_loot_brain_of_cthulhu.mcfunction"
+        ]
+      }
+    },
+    {
+      "name": "WormFoodR",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worm_food_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/worm_food.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodySpine",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_spine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/bloody_spine.json",
+          "src/main/java/net/warcar/terrariareference/item/BloodySpineItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodySpineRightclicked",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_spine_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BloodySpineRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodySpineR",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_spine_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/bloody_spine.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsBane",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lights_bane",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/LightsBaneItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/lights_bane.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsBaneR",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lights_bane_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/lights_bane.json"
+        ]
+      }
+    },
+    {
+      "name": "NightsEdgeEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nights_edge_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/NightsEdgeEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IsCrimson",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "is_crimson",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/IsCrimsonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IsCorruption",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "is_corruption",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/IsCorruptionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Root",
+      "type": "achievement",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/advancements/root.json"
+        ]
+      }
+    },
+    {
+      "name": "BootsOfTheHero",
+      "type": "achievement",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boots_of_the_hero",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/advancements/boots_of_the_hero.json"
+        ]
+      }
+    },
+    {
+      "name": "MinerForFire",
+      "type": "achievement",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_for_fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/advancements/miner_for_fire.json"
+        ]
+      }
+    },
+    {
+      "name": "PvpMode",
+      "type": "gamerule",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pvpMode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/world/PvpModeGameRule.java"
+        ],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "NoAttack",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/NoAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AttackDamage",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "attack_damage",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/procedures/AttackDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetBonus",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_bonus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/SetBonusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShadowArmor",
+      "type": "armor",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/ShadowArmorItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/shadow_armor_chestplate.json",
+          "src/main/resources/assets/terraria_reference/models/item/shadow_armor_leggings.json",
+          "src/main/resources/assets/terraria_reference/models/item/shadow_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CriticalStrikeChance",
+      "type": "attribute",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "critical_strike_chance",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Criticality",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "criticality",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CriticalityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShadowHelmet",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shadow_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/shadow_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadowScalemail",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shadow_scalemail",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/shadow_scalemail.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadowGreaves",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shadow_greaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/shadow_greaves.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonArmor",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/crimson_armor_helmet.json",
+          "src/main/resources/assets/terraria_reference/models/item/crimson_armor_leggings.json",
+          "src/main/resources/assets/terraria_reference/models/item/crimson_armor_chestplate.json",
+          "src/main/java/net/warcar/terrariareference/item/CrimsonArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonHelmet",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crimson_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/crimson_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonScalemail",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crimson_scalemail",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/crimson_scalemail.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonGreaves",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crimson_greaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/crimson_greaves.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenArmor",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/molten_armor_leggings.json",
+          "src/main/resources/assets/terraria_reference/models/item/molten_armor_helmet.json",
+          "src/main/resources/assets/terraria_reference/models/item/molten_armor_chestplate.json",
+          "src/main/java/net/warcar/terrariareference/item/MoltenArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MoltenHelmet",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "molten_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/molten_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenBreastplate",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "molten_breastplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/molten_breastplate.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenGreaves",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "molten_greaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/molten_greaves.json"
+        ]
+      }
+    },
+    {
+      "name": "LifeCrystalAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/LifeCrystalAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LifeCrystalWorld",
+      "type": "block",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/block/LifeCrystalWorldBlock.java",
+          "src/main/resources/assets/terraria_reference/blockstates/life_crystal_world.json",
+          "src/main/resources/assets/terraria_reference/models/item/life_crystal_world.json",
+          "src/main/resources/assets/terraria_reference/models/block/life_crystal_world.json"
+        ]
+      }
+    },
+    {
+      "name": "LifeCrystal",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/life_crystal.json",
+          "src/main/java/net/warcar/terrariareference/item/LifeCrystalItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LifeCrystalGen",
+      "type": "structure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_gen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/world/structure/LifeCrystalGenStructure.java"
+        ]
+      }
+    },
+    {
+      "name": "LifeCrystalRightclicked",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/LifeCrystalRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LifeApply",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_apply",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/LifeApplyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeartBreaker",
+      "type": "achievement",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_breaker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/advancements/heart_breaker.json"
+        ]
+      }
+    },
+    {
+      "name": "LifeCrystalWorldBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_crystal_world_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/LifeCrystalWorldBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BossEntity",
+      "type": "code",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "boss_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/terrariareference/BossEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "EaterOfWorldsOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eater_of_worlds_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/EaterOfWorldsOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BossbarLogic",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bossbar_logic",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BossbarLogicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bossbar",
+      "type": "overlay",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bossbar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/gui/overlay/BossbarOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "IfBoss",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "if_boss",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/IfBossProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BossbarValue",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bossbar_value",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/BossbarValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SegmentedBossEntity",
+      "type": "code",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "segmented_boss_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/SegmentedBossEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SummonEaterOfWorlds",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_eater_of_worlds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/SummonEaterOfWorldsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Exit",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "exit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ExitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EyeOfChtulhu",
+      "type": "livingentity",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eye_of_cthulhu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/entity/EyeOfChtulhuEntity.java",
+          "src/main/java/net/warcar/terrariareference/entity/renderer/EyeOfChtulhuRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TreasureBagEye",
+      "type": "item",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treasure_bag_eye",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/TreasureBagEyeItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/treasure_bag_eye.json"
+        ]
+      }
+    },
+    {
+      "name": "EyeOfChtulhuLootCrimson",
+      "type": "loottable",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_of_chtulhu_loot_crimson",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/loot_tables/gameplay/eye_of_chtulhu_loot_crimson.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonSeeds",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/crimson_seeds.json",
+          "src/main/java/net/warcar/terrariareference/item/CrimsonSeedsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CorruptSeeds",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/CorruptSeedsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/corrupt_seeds.json"
+        ]
+      }
+    },
+    {
+      "name": "EyeOfChtulhuLootCorruption",
+      "type": "loottable",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_of_chtulhu_loot_corruption",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/loot_tables/gameplay/eye_of_chtulhu_loot_corruption.json"
+        ]
+      }
+    },
+    {
+      "name": "TreasureBagEyeRightclicked",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treasure_bag_eye_rightclicked",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/TreasureBagEyeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrimsonVersion",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_version",
+      "metadata": {
+        "return_type": "blockstate",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CrimsonVersionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptionVersion",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_version",
+      "metadata": {
+        "return_type": "blockstate",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CorruptionVersionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrimsonGrass",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/block/CrimsonGrassBlock.java",
+          "src/main/resources/assets/terraria_reference/blockstates/crimson_grass.json",
+          "src/main/resources/assets/terraria_reference/models/item/crimson_grass.json",
+          "src/main/resources/assets/terraria_reference/models/block/crimson_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptionGrass",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/blockstates/corruption_grass.json",
+          "src/main/java/net/warcar/terrariareference/block/CorruptionGrassBlock.java",
+          "src/main/resources/assets/terraria_reference/models/block/corruption_grass.json",
+          "src/main/resources/assets/terraria_reference/models/item/corruption_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "CrimsonGrassUpdateTick",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_grass_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CrimsonGrassUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptionGrassUpdateTick",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_grass_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CorruptionGrassUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrimsonSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_seeds_rightclicked_on_block",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CrimsonSeedsRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptSeedsRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_seeds_rightclicked_on_block",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CorruptSeedsRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrimsonBlocks",
+      "type": "tag",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/tags/blocks/crimson.json"
+        ]
+      }
+    },
+    {
+      "name": "Ebonstone",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebonstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/ebonstone.json",
+          "src/main/java/net/warcar/terrariareference/block/EbonstoneBlock.java",
+          "src/main/resources/assets/terraria_reference/models/block/ebonstone.json",
+          "src/main/resources/assets/terraria_reference/blockstates/ebonstone.json"
+        ]
+      }
+    },
+    {
+      "name": "ExpandCorruption",
+      "type": "procedure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expand_corruption",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ExpandCorruptionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExpandCrimson",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expand_crimson",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ExpandCrimsonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crimstone",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/blockstates/crimstone.json",
+          "src/main/java/net/warcar/terrariareference/block/CrimstoneBlock.java",
+          "src/main/resources/assets/terraria_reference/models/block/crimstone.json",
+          "src/main/resources/assets/terraria_reference/models/item/crimstone.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonwoodLog",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebonwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/ebonwood_log.json",
+          "src/main/resources/assets/terraria_reference/models/block/ebonwood_log.json",
+          "src/main/java/net/warcar/terrariareference/block/EbonwoodLogBlock.java",
+          "src/main/resources/assets/terraria_reference/blockstates/ebonwood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Ebonwood",
+      "type": "block",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebonwood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/block/EbonwoodBlock.java",
+          "src/main/resources/assets/terraria_reference/blockstates/ebonwood.json",
+          "src/main/resources/assets/terraria_reference/models/item/ebonwood.json",
+          "src/main/resources/assets/terraria_reference/models/block/ebonwood.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonwoodPlanks",
+      "type": "block",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebonwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/blockstates/ebonwood_planks.json",
+          "src/main/resources/assets/terraria_reference/models/block/ebonwood_planks.json",
+          "src/main/java/net/warcar/terrariareference/block/EbonwoodPlanksBlock.java",
+          "src/main/resources/assets/terraria_reference/models/item/ebonwood_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonwoodR",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ebonwood_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/ebonwood_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonwoodT",
+      "type": "tag",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebonwood_t",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/tags/items/ebonwood_logs.json"
+        ]
+      }
+    },
+    {
+      "name": "LogsI",
+      "type": "tag",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "logs_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonwoodW",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebonwood_w",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/ebonwood.json"
+        ]
+      }
+    },
+    {
+      "name": "StripedEbonwoodLog",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_ebonwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/striped_ebonwood_log.json",
+          "src/main/resources/assets/terraria_reference/blockstates/striped_ebonwood_log.json",
+          "src/main/resources/assets/terraria_reference/models/block/striped_ebonwood_log.json",
+          "src/main/java/net/warcar/terrariareference/block/StripedEbonwoodLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StripedEbonwood",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_ebonwood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/striped_ebonwood.json",
+          "src/main/resources/assets/terraria_reference/blockstates/striped_ebonwood.json",
+          "src/main/java/net/warcar/terrariareference/block/StripedEbonwoodBlock.java",
+          "src/main/resources/assets/terraria_reference/models/block/striped_ebonwood.json"
+        ]
+      }
+    },
+    {
+      "name": "StripedEbonwoodR",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_ebonwood_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/striped_ebonwood.json"
+        ]
+      }
+    },
+    {
+      "name": "EbonwoodLogOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebonwood_log_on_block_right_clicked",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/EbonwoodLogOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EbonwoodOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebonwood_on_block_right_clicked",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/EbonwoodOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptionBlocks",
+      "type": "tag",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/tags/blocks/corruption.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadewoodPlanks",
+      "type": "block",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadewood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/blockstates/shadewood_planks.json",
+          "src/main/resources/assets/terraria_reference/models/item/shadewood_planks.json",
+          "src/main/java/net/warcar/terrariareference/block/ShadewoodPlanksBlock.java",
+          "src/main/resources/assets/terraria_reference/models/block/shadewood_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadewoodLog",
+      "type": "block",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadewood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/block/shadewood_log.json",
+          "src/main/java/net/warcar/terrariareference/block/ShadewoodLogBlock.java",
+          "src/main/resources/assets/terraria_reference/models/item/shadewood_log.json",
+          "src/main/resources/assets/terraria_reference/blockstates/shadewood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadewood",
+      "type": "block",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadewood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/blockstates/shadewood.json",
+          "src/main/resources/assets/terraria_reference/models/item/shadewood.json",
+          "src/main/java/net/warcar/terrariareference/block/ShadewoodBlock.java",
+          "src/main/resources/assets/terraria_reference/models/block/shadewood.json"
+        ]
+      }
+    },
+    {
+      "name": "StripedShadewoodLog",
+      "type": "block",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_shadewood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/block/striped_shadewood_log.json",
+          "src/main/resources/assets/terraria_reference/models/item/striped_shadewood_log.json",
+          "src/main/java/net/warcar/terrariareference/block/StripedShadewoodLogBlock.java",
+          "src/main/resources/assets/terraria_reference/blockstates/striped_shadewood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StripedShadewood",
+      "type": "block",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_shadewood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/block/striped_shadewood.json",
+          "src/main/java/net/warcar/terrariareference/block/StripedShadewoodBlock.java",
+          "src/main/resources/assets/terraria_reference/models/item/striped_shadewood.json",
+          "src/main/resources/assets/terraria_reference/blockstates/striped_shadewood.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadewoodT",
+      "type": "tag",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadewood_t",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/tags/items/shadewood_logs.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadewoodR",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shadewood_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/shadewood.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadewoodW",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadewood_w",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/shadewood.json"
+        ]
+      }
+    },
+    {
+      "name": "StripedShadewoodW",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_shadewood_w",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/striped_shadewood.json"
+        ]
+      }
+    },
+    {
+      "name": "CurBoss",
+      "type": "procedure",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cur_boss",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CurBossProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlotsAdd",
+      "type": "code",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "slots_add",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/SlotsAdd.java"
+        ]
+      }
+    },
+    {
+      "name": "Accesories",
+      "type": "tag",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accesories",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/accesory.json"
+        ]
+      }
+    },
+    {
+      "name": "HermesBoots",
+      "type": "item",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hermes_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/HermesBootsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/hermes_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "ArmorBonuses",
+      "type": "procedure",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_bonuses",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ArmorBonusesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RocketBootsC",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_boots_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/rocket_boots_c.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketBoots",
+      "type": "item",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/RocketBootsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/rocket_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "SpectreBoots",
+      "type": "item",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectre_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/SpectreBootsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/spectre_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningBootsRecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/lightning_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningBoots",
+      "type": "item",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/LightningBootsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/lightning_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "DuneriderBoots",
+      "type": "item",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dunerider_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/DuneriderBootsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/dunerider_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "SandstormBoots",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sandstorm_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/SandstormBootsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/sandstorm_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaWanders",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lava_waders",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/LavaWandersItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/lava_waders.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterWalkingBoots",
+      "type": "item",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "water_walking_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/WaterWalkingBootsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/water_walking_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "TerrasparkBoots",
+      "type": "item",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "terraspark_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/TerrasparkBootsItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/terraspark_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "RevertCrafts",
+      "type": "procedure",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "revert_crafts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/RevertCraftsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TerrasparkBootsR",
+      "type": "recipe",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terraspark_boots_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/terraspark_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Shimmer",
+      "type": "fluid",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/blockstates/shimmer.json",
+          "src/main/resources/assets/terraria_reference/models/block/shimmer.json",
+          "src/main/java/net/warcar/terrariareference/block/ShimmerBlock.java",
+          "src/main/resources/assets/terraria_reference/models/item/shimmer_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "ShimmerMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shimmer_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ShimmerMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shimmering",
+      "type": "potioneffect",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmering",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/potion/ShimmeringPotionEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ShimmeringOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmering_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ShimmeringOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CursesWork",
+      "type": "procedure",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curses_work",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CursesWorkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaxMana",
+      "type": "attribute",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "max_mana",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RespawnMana",
+      "type": "procedure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "respawn_mana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/RespawnManaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaDisplay",
+      "type": "overlay",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mana_display",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/gui/overlay/ManaDisplayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "ManaRegeneration",
+      "type": "attribute",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_regeneration",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ManaRegen",
+      "type": "procedure",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_regen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ManaRegenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaCrystall",
+      "type": "item",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_crystall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/mana_crystall.json",
+          "src/main/java/net/warcar/terrariareference/item/ManaCrystallItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ManaCrystallRightclicked",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_crystall_rightclicked",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ManaCrystallRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FallenStar",
+      "type": "item",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallen_star",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/item/FallenStarItem.java",
+          "src/main/resources/assets/terraria_reference/models/item/fallen_star.json"
+        ]
+      }
+    },
+    {
+      "name": "ManaCrystallR",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_crystall_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/terraria_reference/recipes/mana_crystall.json"
+        ]
+      }
+    },
+    {
+      "name": "CursesWork2",
+      "type": "procedure",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curses_work_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/CursesWork2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModRecipeTypes",
+      "type": "code",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mod_recipe_types",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/ModRecipeTypes.java"
+        ]
+      }
+    },
+    {
+      "name": "IShimmerTransformation",
+      "type": "code",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "i_shimmer_transformation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/IShimmerTransformation.java"
+        ]
+      }
+    },
+    {
+      "name": "ShimmerTransformation",
+      "type": "code",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shimmer_transformation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/ShimmerTransformation.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicDamage",
+      "type": "attribute",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_damage",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ShimmerFillingFail",
+      "type": "procedure",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmer_filling_fail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ShimmerFillingFailProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "originalitemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShimmerNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shimmer_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/ShimmerNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronskinP",
+      "type": "potioneffect",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ironskin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/potion/IronskinPPotionEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "HpRegen",
+      "type": "attribute",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hp_regen",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HpRegenWork",
+      "type": "procedure",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hp_regen_work",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/procedures/HpRegenWorkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CozyFire",
+      "type": "potioneffect",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cozy_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/potion/CozyFirePotionEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "CozyFireGet",
+      "type": "procedure",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cozy_fire_get",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AetheriumBlock",
+      "type": "block",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "aetherium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/block/aetherium_block.json",
+          "src/main/resources/assets/terraria_reference/blockstates/aetherium_block.json",
+          "src/main/resources/assets/terraria_reference/models/item/aetherium_block.json",
+          "src/main/java/net/warcar/terrariareference/block/AetheriumBlockBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Recall",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "RecallX",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "RecallY",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "RecallDim",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": ""
+    },
+    {
+      "name": "RecallZ",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Fly",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "lavaResist",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "LifeCrystals",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "LifeFruits",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "Hardmode",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "lavaResistMax",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Mana",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "20.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "block.terraria_reference.striped_ebonwood_log": "Striped Ebonwood Log",
+      "item.terraria_reference.terraspark_boots": "Terraspark Boots",
+      "item.terraria_reference.lava_waders": "Lava Wanders",
+      "item.terraria_reference.magic_mirror": "Магичекое зеркало",
+      "item.terraria_reference.blade_of_grass": "Blade of Grass",
+      "item.terraria_reference.demon_conch": "Демоническая ракушка",
+      "item.terraria_reference.blood_butcher": "Blood Butcher",
+      "item.terraria_reference.crimson_armor_chestplate": "Crimson Scalemail",
+      "item.minecraft.tipped_arrow.effect.iron_skin": "Стрела Железной Кожи",
+      "block.terraria_reference.ebonwood": "Ebonwood",
+      "block.terraria_reference.ebonwood_log": "Ebonwood Log",
+      "item.terraria_reference.hellstone_bar": "Hellstone Bar",
+      "item.terraria_reference.spectre_boots": "Spectre Boots",
+      "item.terraria_reference.molten_armor_boots": "",
+      "terraria_reference.text.boss_not_supported": "Босс пока не поддерживается",
+      "key.terraria_reference.rocketboots_fly_key": "Rocket Boots Fly Key",
+      "item.terraria_reference.blindfold_chestplate": "",
+      "item.terraria_reference.worm_food": "Worm Food",
+      "item.terraria_reference.muramasa": "Muramasa",
+      "item.terraria_reference.crimson_armor_boots": "",
+      "attribute.terraria_reference.hp_regen": "Hp Regen",
+      "entity.terraria_reference.wasp": "Wasp",
+      "item.terraria_reference.vine": "Vine",
+      "item.terraria_reference.mana_crystall": "Mana Crystall",
+      "item.terraria_reference.eye_of_cthulhu_spawn_egg": "Eye Of Chtulhu Spawn Egg",
+      "death.attack.lava_lowered": "%s не спасся от лавы",
+      "item.terraria_reference.obsidian_scull": "Obsidian Scull",
+      "item.terraria_reference.magic_conch": "Магическая ракушка",
+      "block.terraria_reference.shadewood": "Shadewood",
+      "item.terraria_reference.molten_scull_rose": "Molten Scull Rose",
+      "item.terraria_reference.demonite_bar": "Demonite Bar",
+      "item.terraria_reference.life_crystal": "Life Crystal",
+      "item.terraria_reference.return_potion": "Зелье Возврата",
+      "entity.terraria_reference.eye_of_cthulhu": "Eye Of Chtulhu",
+      "item.terraria_reference.treasure_bag_eye": "Treasure Bag",
+      "item.terraria_reference.shadow_scale": "Shadow Scale",
+      "block.terraria_reference.aetherium_block": "Aetherium Block",
+      "advancements.heart_breaker.descr": "Find and break a Life Crystal.",
+      "block.terraria_reference.shimmer": "Shimmer",
+      "item.terraria_reference.ender_conch": "Эндер ракушка",
+      "item.terraria_reference.obsidian_rose": "Obsidian Rose",
+      "item.terraria_reference.ulti_mines": "Ульти-мины",
+      "item.terraria_reference.molten_armor_leggings": "Molten Greaves",
+      "item.terraria_reference.fallen_star": "Fallen Star",
+      "gamerule.pvpMode.description": "Player attack players",
+      "item.terraria_reference.volcano": "Volcano",
+      "item.terraria_reference.molten_armor_chestplate": "Molten Breastplate",
+      "advancements.miner_for_fire.title": "Miner For Fire",
+      "advancements.boots_of_the_hero.descr": "Obtain the Terraspark Boots, forged from the finest boots.",
+      "block.terraria_reference.crimtane_ore": "Crimtane Ore",
+      "item.terraria_reference.stinger": "Stinger",
+      "block.terraria_reference.striped_shadewood_log": "Striped Shadewood Log",
+      "block.terraria_reference.corruption_grass": "Corruption Grass",
+      "item.minecraft.potion.effect.iron_skin": "Зелье Железной Кожи",
+      "effect.cozy_fire": "Cozy Fire",
+      "item.terraria_reference.water_walking_boots": "Water Walking Boots",
+      "block.terraria_reference.hellstone": "Netherstone",
+      "item.terraria_reference.rocket_boots": "Rocket Boots",
+      "block.terraria_reference.shadewood_log": "Shadewood Log",
+      "advancements.root.descr": "Let it begin",
+      "item.terraria_reference.wasp_spawn_egg": "Wasp Spawn Egg",
+      "item.terraria_reference.golden_bezoar": "Золотой Безоар",
+      "block.terraria_reference.ebonstone": "Ebonstone",
+      "block.terraria_reference.striped_shadewood": "Striped Shadewood",
+      "item.terraria_reference.milk_sponge": "Молочная Губка",
+      "item.terraria_reference.shadow_armor_chestplate": "Shadow Scalemail",
+      "attribute.terraria_reference.magic_damage": "Magic Damage",
+      "item.terraria_reference.molten_pickaxe": "Molten Pickaxe",
+      "curios.modifiers.accesory": "Когда использавано как аксесуар:",
+      "block.terraria_reference.ebonwood_planks": "Ebonwood Planks",
+      "gamerule.pvpMode": "PVP Mode",
+      "item.terraria_reference.blindfold_boots": "",
+      "item.terraria_reference.lucky_horseshoe": "Счастливая подкова",
+      "effect.bleeding": "Bleeding",
+      "block.terraria_reference.demonite_ore": "Demonite Ore",
+      "curios.identifier.accesory": "Аксесуар",
+      "attribute.terraria_reference.max_mana": "Maximum Mana",
+      "attribute.terraria_reference.mana_regeneration": "Mana Regeneration",
+      "item.terraria_reference.hermes_boots": "Hermes Boots",
+      "item.terraria_reference.dunerider_boots": "Dunerider Boots",
+      "item.terraria_reference.vitamines": "Витамины",
+      "advancements.root.title": "Terraria reference",
+      "item.terraria_reference.anklet_of_the_wind": "Браслет ветра",
+      "item.terraria_reference.jungle_spore": "Jungle Spore",
+      "item.minecraft.splash_potion.effect.iron_skin": "Взрывное зелье Железной Кожи",
+      "block.terraria_reference.crimstone": "Crimstone",
+      "item.terraria_reference.eater_of_worlds_spawn_egg": "Eater Of Worlds Spawn Egg",
+      "item.terraria_reference.shadow_armor_boots": "",
+      "block.terraria_reference.life_crystal_world": "Life Crystal",
+      "item.terraria_reference.nightmare_pickaxe": "Nightmare Pickaxe",
+      "item.terraria_reference.fast_clock": "Быстрые часы",
+      "item.terraria_reference.crimtane_bar": "Crimtane Bar",
+      "block.terraria_reference.shadewood_planks": "Shadewood Planks",
+      "item.terraria_reference.shadow_armor_helmet": "Shadow Helmet",
+      "item.terraria_reference.magma_scull": "Magma Scull",
+      "entity.terraria_reference.eater_of_worlds": "Eater Of Worlds",
+      "item.terraria_reference.aglet": "Аксельбант",
+      "item.terraria_reference.crimson_armor_leggings": "Crimson Greaves",
+      "advancements.heart_breaker.title": "Heart Breaker",
+      "item.terraria_reference.deathbringer_pickaxe": "Deathbringer Pickaxe",
+      "item.terraria_reference.blindfold_helmet": "Повязка на глаза",
+      "effect.ironskin": "Ironskin",
+      "item.terraria_reference.crimson_armor_helmet": "Crimson Helmet",
+      "item.terraria_reference.lava_charm": "Lava Charm",
+      "item.terraria_reference.lights_bane": "Lights Bane",
+      "advancements.boots_of_the_hero.title": "Boots of the Hero",
+      "block.terraria_reference.crimson_grass": "Crimson Grass",
+      "item.terraria_reference.shadow_armor_leggings": "Shadow Greaves",
+      "advancements.miner_for_fire.descr": "Craft a molten pickaxe using the hottest of materials.",
+      "item.terraria_reference.molten_armor_helmet": "Molten Helmet",
+      "block.terraria_reference.striped_ebonwood": "Striped Ebonwood",
+      "block.terraria_reference.jungle_spore_orb": "Jungle Spore",
+      "item.terraria_reference.tissue_sample": "Tissue Sample",
+      "item.terraria_reference.bezoar": "Безоар",
+      "item.terraria_reference.blindfold_leggings": "",
+      "item.terraria_reference.corrupt_seeds": "Corrupt Seeds",
+      "item.terraria_reference.sandstorm_boots": "Sandstorm Boots",
+      "item.terraria_reference.crimson_seeds": "Crimson Seeds",
+      "item.terraria_reference.nazar": "Nazar",
+      "item.terraria_reference.bloody_spine": "Bloody Spine",
+      "fluid.terraria_reference.shimmer": "Shimmer",
+      "attribute.terraria_reference.critical_strike_chance": "Critical Strike Chance",
+      "item.terraria_reference.lightning_boots": "Lightning Boots",
+      "item.terraria_reference.shimmer_bucket": "Shimmer Bucket",
+      "effect.shimmering": "Shimmering",
+      "item.minecraft.lingering_potion.effect.iron_skin": "Lingering Potion of Iron Skin",
+      "item.terraria_reference.nights_edge": "Night\u0027s Edge"
+    },
+    "en_us": {
+      "block.terraria_reference.striped_ebonwood_log": "Striped Ebonwood Log",
+      "item.terraria_reference.terraspark_boots": "Terraspark Boots",
+      "item.terraria_reference.lava_waders": "Lava Wanders",
+      "item.terraria_reference.blade_of_grass": "Blade of Grass",
+      "item.terraria_reference.magic_mirror": "Magic Mirror",
+      "item.terraria_reference.blood_butcher": "Blood Butcher",
+      "item.terraria_reference.demon_conch": "Demon Conch",
+      "item.terraria_reference.crimson_armor_chestplate": "Crimson Scalemail",
+      "item.minecraft.tipped_arrow.effect.iron_skin": "Arrow of Iron Skin",
+      "block.terraria_reference.ebonwood": "Ebonwood",
+      "block.terraria_reference.ebonwood_log": "Ebonwood Log",
+      "item.terraria_reference.hellstone_bar": "Netherstone bar",
+      "item.terraria_reference.spectre_boots": "Spectre Boots",
+      "item.terraria_reference.molten_armor_boots": "",
+      "terraria_reference.text.boss_not_supported": "Boss not supported yet",
+      "key.terraria_reference.rocketboots_fly_key": "Rocketboots Fly Key",
+      "item.terraria_reference.blindfold_chestplate": "",
+      "item.terraria_reference.worm_food": "Worm Food",
+      "item.terraria_reference.muramasa": "Muramasa",
+      "item.terraria_reference.crimson_armor_boots": "",
+      "attribute.terraria_reference.hp_regen": "Hp Regen",
+      "entity.terraria_reference.wasp": "Wasp",
+      "item.terraria_reference.vine": "Vine",
+      "item.terraria_reference.mana_crystall": "Mana Crystall",
+      "item.terraria_reference.eye_of_cthulhu_spawn_egg": "Eye Of Chtulhu Spawn Egg",
+      "death.attack.lava_lowered": "%s didn\u0027t escape lava",
+      "item.terraria_reference.obsidian_scull": "Obsidian Scull",
+      "item.terraria_reference.magic_conch": "Magic Conch",
+      "block.terraria_reference.shadewood": "Shadewood",
+      "item.terraria_reference.molten_scull_rose": "Molten Scull Rose",
+      "item.terraria_reference.demonite_bar": "Demonite Bar",
+      "item.terraria_reference.life_crystal": "Life Crystal",
+      "item.terraria_reference.return_potion": "Potion of return",
+      "entity.terraria_reference.eye_of_cthulhu": "Eye Of Chtulhu",
+      "item.terraria_reference.treasure_bag_eye": "Treasure Bag",
+      "item.terraria_reference.shadow_scale": "Shadow Scale",
+      "block.terraria_reference.aetherium_block": "Aetherium Block",
+      "advancements.heart_breaker.descr": "Find and break a Life Crystal.",
+      "block.terraria_reference.shimmer": "Shimmer",
+      "item.terraria_reference.ender_conch": "Ender Conch",
+      "item.terraria_reference.obsidian_rose": "Obsidian Rose",
+      "item.terraria_reference.ulti_mines": "Ulti-mines",
+      "item.terraria_reference.molten_armor_leggings": "Molten Greaves",
+      "item.terraria_reference.fallen_star": "Fallen Star",
+      "gamerule.pvpMode.description": "Player attack players",
+      "item.terraria_reference.volcano": "Volcano",
+      "item.terraria_reference.molten_armor_chestplate": "Molten Breastplate",
+      "advancements.miner_for_fire.title": "Miner For Fire",
+      "advancements.boots_of_the_hero.descr": "Obtain the Terraspark Boots, forged from the finest boots.",
+      "block.terraria_reference.crimtane_ore": "Crimtane Ore",
+      "item.terraria_reference.stinger": "Stinger",
+      "block.terraria_reference.striped_shadewood_log": "Striped Shadewood Log",
+      "block.terraria_reference.corruption_grass": "Corruption Grass",
+      "item.minecraft.potion.effect.iron_skin": "Potion of Iron Skin",
+      "effect.cozy_fire": "Cozy Fire",
+      "item.terraria_reference.water_walking_boots": "Water Walking Boots",
+      "block.terraria_reference.hellstone": "Netherstone",
+      "item.terraria_reference.rocket_boots": "Rocket Boots",
+      "block.terraria_reference.shadewood_log": "Shadewood Log",
+      "advancements.root.descr": "Let it begin",
+      "item.terraria_reference.wasp_spawn_egg": "Wasp Spawn Egg",
+      "item.terraria_reference.golden_bezoar": "Golden Bezoar",
+      "block.terraria_reference.ebonstone": "Ebonstone",
+      "block.terraria_reference.striped_shadewood": "Striped Shadewood",
+      "item.terraria_reference.milk_sponge": "Milk Sponge",
+      "item.terraria_reference.shadow_armor_chestplate": "Shadow Scalemail",
+      "attribute.terraria_reference.magic_damage": "Magic Damage",
+      "item.terraria_reference.molten_pickaxe": "Molten Pickaxe",
+      "curios.modifiers.accesory": "When used as accesory:",
+      "block.terraria_reference.ebonwood_planks": "Ebonwood Planks",
+      "gamerule.pvpMode": "PVP Mode",
+      "item.terraria_reference.blindfold_boots": "",
+      "item.terraria_reference.lucky_horseshoe": "Lucky Horseshoe",
+      "effect.bleeding": "Blood Butchered",
+      "block.terraria_reference.demonite_ore": "Demonite Ore",
+      "curios.identifier.accesory": "Accesory",
+      "attribute.terraria_reference.max_mana": "Maximum Mana",
+      "attribute.terraria_reference.mana_regeneration": "Mana Regeneration",
+      "item.terraria_reference.hermes_boots": "Hermes Boots",
+      "item.terraria_reference.dunerider_boots": "Dunerider Boots",
+      "item.terraria_reference.vitamines": "Vitamines",
+      "advancements.root.title": "Terraria reference",
+      "item.terraria_reference.anklet_of_the_wind": "Anklet of the Wind",
+      "item.terraria_reference.jungle_spore": "Jungle Spore",
+      "item.minecraft.splash_potion.effect.iron_skin": "Splash Potion of Iron Skin",
+      "block.terraria_reference.crimstone": "Crimstone",
+      "item.terraria_reference.eater_of_worlds_spawn_egg": "Eater Of Worlds Spawn Egg",
+      "item.terraria_reference.shadow_armor_boots": "",
+      "block.terraria_reference.life_crystal_world": "Life Crystal",
+      "item.terraria_reference.nightmare_pickaxe": "Nightmare Pickaxe",
+      "item.terraria_reference.fast_clock": "Fast Clock",
+      "item.terraria_reference.crimtane_bar": "Crimtane Bar",
+      "block.terraria_reference.shadewood_planks": "Shadewood Planks",
+      "item.terraria_reference.shadow_armor_helmet": "Shadow Helmet",
+      "item.terraria_reference.magma_scull": "Magma Scull",
+      "entity.terraria_reference.eater_of_worlds": "Eater Of Worlds",
+      "item.terraria_reference.aglet": "Aglet",
+      "item.terraria_reference.crimson_armor_leggings": "Crimson Greaves",
+      "advancements.heart_breaker.title": "Heart Breaker",
+      "item.terraria_reference.deathbringer_pickaxe": "Deathbringer Pickaxe",
+      "item.terraria_reference.blindfold_helmet": "Blindfold",
+      "effect.ironskin": "Ironskin",
+      "item.terraria_reference.crimson_armor_helmet": "Crimson Helmet",
+      "item.terraria_reference.lava_charm": "Lava Charm",
+      "item.terraria_reference.lights_bane": "Lights Bane",
+      "advancements.boots_of_the_hero.title": "Boots of the Hero",
+      "block.terraria_reference.crimson_grass": "Crimson Grass",
+      "item.terraria_reference.shadow_armor_leggings": "Shadow Greaves",
+      "advancements.miner_for_fire.descr": "Craft a molten pickaxe using the hottest of materials.",
+      "item.terraria_reference.molten_armor_helmet": "Molten Helmet",
+      "block.terraria_reference.striped_ebonwood": "Striped Ebonwood",
+      "block.terraria_reference.jungle_spore_orb": "Jungle Spore",
+      "item.terraria_reference.tissue_sample": "Tissue Sample",
+      "item.terraria_reference.bezoar": "Bezoar",
+      "item.terraria_reference.blindfold_leggings": "",
+      "item.terraria_reference.corrupt_seeds": "Corrupt Seeds",
+      "item.terraria_reference.sandstorm_boots": "Sandstorm Boots",
+      "item.terraria_reference.crimson_seeds": "Crimson Seeds",
+      "item.terraria_reference.nazar": "Nazar",
+      "item.terraria_reference.bloody_spine": "Bloody Spine",
+      "fluid.terraria_reference.shimmer": "Shimmer",
+      "attribute.terraria_reference.critical_strike_chance": "Critical Strike Chance",
+      "item.terraria_reference.lightning_boots": "Lightning Boots",
+      "item.terraria_reference.shimmer_bucket": "Botomless Shimmer Bucket",
+      "effect.shimmering": "Shimmering",
+      "item.minecraft.lingering_potion.effect.iron_skin": "Lingering Potion of Iron Skin",
+      "item.terraria_reference.nights_edge": "Night\u0027s Edge"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "heat overlay",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "terraria_reference",
+    "modName": "Terraria Reference",
+    "version": "0.2.0 BETA",
+    "description": "Mod that adds terraria to minecraft",
+    "author": "Warcar",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.warcar.terrariareference",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

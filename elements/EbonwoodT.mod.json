@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:EbonwoodLog"
+      },
+      {
+        "value": "CUSTOM:Ebonwood"
+      },
+      {
+        "value": "CUSTOM:StripedEbonwoodLog"
+      },
+      {
+        "value": "CUSTOM:StripedEbonwood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "ebonwood_logs",
+    "namespace": "mod"
+  }
+}

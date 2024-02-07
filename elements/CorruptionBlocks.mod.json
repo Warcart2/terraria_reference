@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CorruptionGrass"
+      },
+      {
+        "value": "CUSTOM:Ebonstone"
+      },
+      {
+        "value": "CUSTOM:EbonwoodLog"
+      },
+      {
+        "value": "CUSTOM:Ebonwood"
+      },
+      {
+        "value": "CUSTOM:EbonwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:StripedEbonwoodLog"
+      },
+      {
+        "value": "CUSTOM:StripedEbonwood"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "corruption",
+    "namespace": "mod"
+  }
+}

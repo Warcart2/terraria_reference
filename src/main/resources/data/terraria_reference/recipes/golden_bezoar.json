@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terraria_reference:milk_sponge"
+    },
+    {
+      "item": "terraria_reference:bezoar"
+    }
+  ],
+  "result": {
+    "item": "terraria_reference:golden_bezoar",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StripedEbonwoodLog"
+      },
+      {
+        "value": "CUSTOM:StripedEbonwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StripedEbonwoodLog"
+      },
+      {
+        "value": "CUSTOM:StripedEbonwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StripedEbonwood"
+    },
+    "name": "striped_ebonwood",
+    "namespace": "mod"
+  }
+}

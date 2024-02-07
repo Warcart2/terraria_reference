@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DemoniteBar"
+      },
+      {
+        "value": "CUSTOM:CrimtaneBar"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "evil_ingots",
+    "namespace": "mod"
+  }
+}
