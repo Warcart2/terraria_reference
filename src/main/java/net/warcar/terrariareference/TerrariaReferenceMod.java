@@ -47,6 +47,7 @@ public class TerrariaReferenceMod {
 
 	public TerrariaReferenceMod() {
 		elements = new TerrariaReferenceModElements();
+		ModRecipeTypes.register(FMLJavaModLoadingContext.get().getModEventBus());
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientLoad);

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "terraria_reference:lava_wanders"
+      "item": "terraria_reference:lava_waders"
     },
     {
       "item": "terraria_reference:sandstorm_boots"

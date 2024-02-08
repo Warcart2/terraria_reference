@@ -22,7 +22,7 @@ public class ModRecipeTypes {
             DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS, TerrariaReferenceMod.MODID);
 
     public static final RegistryObject<ShimmerTransformation.Serializer> SHIMMER_SERIALIZER
-            = RECIPE_SERIALIZER.register("shimmer", ShimmerTransformation.Serializer::new);
+            = RECIPE_SERIALIZER.register("shimmer_transformation", ShimmerTransformation.Serializer::new);
 
     public static IRecipeType<ShimmerTransformation> SHIMMER_TRANSFORMATION
             = new ShimmerTransformation.ShimmerTransformationType();
@@ -30,15 +30,6 @@ public class ModRecipeTypes {
 
     public static void register(IEventBus eventBus) {
         RECIPE_SERIALIZER.register(eventBus);
-
         Registry.register(Registry.RECIPE_TYPE, ShimmerTransformation.TYPE_ID, SHIMMER_TRANSFORMATION);
     }
-    @SubscribeEvent
-	public static void reg(FMLCommonSetupEvent event) {
-		TerrariaReferenceMod.LOGGER.info("shimmer registration");
-		event.enqueueWork(() -> {
-			TerrariaReferenceMod.LOGGER.info("shimmer registrated");
-			register(FMLJavaModLoadingContext.get().getModEventBus());
-		});
-	}
 }

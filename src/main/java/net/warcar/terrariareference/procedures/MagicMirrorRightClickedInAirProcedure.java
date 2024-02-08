@@ -4,6 +4,7 @@ import net.warcar.terrariareference.TerrariaReferenceMod;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.potion.EffectInstance;
@@ -19,11 +20,17 @@ import java.util.Map;
 public class MagicMirrorRightClickedInAirProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
+		if (dependencies.get("world") == null) {
+			if (!dependencies.containsKey("world"))
+				TerrariaReferenceMod.LOGGER.warn("Failed to load dependency world for procedure MagicMirrorRightClickedInAir!");
+			return;
+		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
 				TerrariaReferenceMod.LOGGER.warn("Failed to load dependency entity for procedure MagicMirrorRightClickedInAir!");
 			return;
 		}
+		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
 		if (!((entity.world.getDimensionKey()) == (World.OVERWORLD))) {
 			{
@@ -43,6 +50,17 @@ public class MagicMirrorRightClickedInAirProcedure {
 				}
 			}
 		}
-		entity.getPersistentData().putDouble("ticksMirrorTp", 1);
+		if (world instanceof ServerWorld) {
+			IWorld _worldorig = world;
+			world = ((ServerWorld) world).getServer().getWorld(World.OVERWORLD);
+			if (world != null) {
+				BlockPos bed = ((ServerPlayerEntity) entity).func_241140_K_();
+				if (bed == null) {
+					bed = new BlockPos(world.getWorldInfo().getSpawnX(), world.getWorldInfo().getSpawnY(), world.getWorldInfo().getSpawnZ());
+				}
+				entity.setPositionAndUpdate(bed.getX(), bed.getY(), bed.getZ());
+			}
+			world = _worldorig;
+		}
 	}
 }

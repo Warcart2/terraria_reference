@@ -29,6 +29,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -343,6 +347,10 @@
           {
             "name": "z",
             "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -5264,9 +5272,6 @@
       "locked_code": true,
       "registry_name": "use_mount_on_key_pressed",
       "metadata": {
-        "files": [
-          "src/main/java/net/warcar/terrariareference/procedures/UseMountOnKeyPressedProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -5307,6 +5312,73 @@
             "name": "entity",
             "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "MountItem",
+      "type": "code",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mount_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/MountItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TestMountEnt",
+      "type": "livingentity",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "test_mount_ent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/entity/TestMountEntEntity.java",
+          "src/main/java/net/warcar/terrariareference/entity/renderer/TestMountEntRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TestMount",
+      "type": "item",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "test_mount",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/terraria_reference/models/item/test_mount.json",
+          "src/main/java/net/warcar/terrariareference/item/TestMountItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MountEntity",
+      "type": "code",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mount_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/warcar/terrariareference/MountEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AllMounts",
+      "type": "tag",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_mounts",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/mount.json"
         ]
       }
     }
@@ -5399,8 +5471,8 @@
       "item.terraria_reference.lava_waders": "Lava Wanders",
       "item.terraria_reference.magic_mirror": "Магичекое зеркало",
       "item.terraria_reference.blade_of_grass": "Blade of Grass",
-      "item.terraria_reference.demon_conch": "Демоническая ракушка",
       "item.terraria_reference.blood_butcher": "Blood Butcher",
+      "item.terraria_reference.demon_conch": "Демоническая ракушка",
       "item.terraria_reference.crimson_armor_chestplate": "Crimson Scalemail",
       "item.minecraft.tipped_arrow.effect.iron_skin": "Стрела Железной Кожи",
       "block.terraria_reference.ebonwood": "Ebonwood",
@@ -5435,6 +5507,7 @@
       "block.terraria_reference.shimmer": "Shimmer",
       "item.terraria_reference.ender_conch": "Эндер ракушка",
       "item.terraria_reference.obsidian_rose": "Obsidian Rose",
+      "item.terraria_reference.test_mount": "Test Mount",
       "item.terraria_reference.ulti_mines": "Ульти-мины",
       "item.terraria_reference.molten_armor_leggings": "Molten Greaves",
       "curios.identifier.hook": "Крюк",
@@ -5474,6 +5547,7 @@
       "attribute.terraria_reference.max_mana": "Maximum Mana",
       "attribute.terraria_reference.mana_regeneration": "Mana Regeneration",
       "item.terraria_reference.hermes_boots": "Hermes Boots",
+      "entity.terraria_reference.test_mount_ent": "Test Mount Ent",
       "item.terraria_reference.dunerider_boots": "Dunerider Boots",
       "item.terraria_reference.vitamines": "Витамины",
       "advancements.root.title": "Terraria reference",
@@ -5503,6 +5577,7 @@
       "item.terraria_reference.lights_bane": "Lights Bane",
       "advancements.boots_of_the_hero.title": "Boots of the Hero",
       "block.terraria_reference.crimson_grass": "Crimson Grass",
+      "item.terraria_reference.test_mount_ent_spawn_egg": "Test Mount Ent Spawn Egg",
       "item.terraria_reference.shadow_armor_leggings": "Shadow Greaves",
       "advancements.miner_for_fire.descr": "Craft a molten pickaxe using the hottest of materials.",
       "item.terraria_reference.molten_armor_helmet": "Molten Helmet",
@@ -5530,8 +5605,8 @@
       "item.terraria_reference.lava_waders": "Lava Wanders",
       "item.terraria_reference.magic_mirror": "Magic Mirror",
       "item.terraria_reference.blade_of_grass": "Blade of Grass",
-      "item.terraria_reference.blood_butcher": "Blood Butcher",
       "item.terraria_reference.demon_conch": "Demon Conch",
+      "item.terraria_reference.blood_butcher": "Blood Butcher",
       "item.minecraft.tipped_arrow.effect.iron_skin": "Arrow of Iron Skin",
       "item.terraria_reference.crimson_armor_chestplate": "Crimson Scalemail",
       "block.terraria_reference.ebonwood_log": "Ebonwood Log",
@@ -5566,6 +5641,7 @@
       "block.terraria_reference.shimmer": "Shimmer",
       "item.terraria_reference.ender_conch": "Ender Conch",
       "item.terraria_reference.obsidian_rose": "Obsidian Rose",
+      "item.terraria_reference.test_mount": "Test Mount",
       "item.terraria_reference.ulti_mines": "Ulti-mines",
       "item.terraria_reference.molten_armor_leggings": "Molten Greaves",
       "curios.identifier.hook": "Hook",
@@ -5605,6 +5681,7 @@
       "attribute.terraria_reference.max_mana": "Maximum Mana",
       "attribute.terraria_reference.mana_regeneration": "Mana Regeneration",
       "item.terraria_reference.hermes_boots": "Hermes Boots",
+      "entity.terraria_reference.test_mount_ent": "Test Mount Ent",
       "item.terraria_reference.dunerider_boots": "Dunerider Boots",
       "item.terraria_reference.vitamines": "Vitamines",
       "advancements.root.title": "Terraria reference",
@@ -5634,6 +5711,7 @@
       "item.terraria_reference.lights_bane": "Lights Bane",
       "advancements.boots_of_the_hero.title": "Boots of the Hero",
       "block.terraria_reference.crimson_grass": "Crimson Grass",
+      "item.terraria_reference.test_mount_ent_spawn_egg": "Test Mount Ent Spawn Egg",
       "item.terraria_reference.shadow_armor_leggings": "Shadow Greaves",
       "advancements.miner_for_fire.descr": "Craft a molten pickaxe using the hottest of materials.",
       "item.terraria_reference.molten_armor_helmet": "Molten Helmet",
@@ -5685,7 +5763,7 @@
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.warcar.terrariareference",
-    "lockBaseModFiles": false
+    "lockBaseModFiles": true
   },
   "mcreatorVersion": 202300110610
 }

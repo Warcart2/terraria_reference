@@ -114,7 +114,6 @@ public class AetheriumBlockBlock extends TerrariaReferenceModElements.ModElement
 			nbt.putFloat("red", red);
 			nbt.putFloat("green", green);
 			nbt.putFloat("blue", blue);
-			//TerrariaReferenceMod.LOGGER.warn(red + ", " + green + ", " + blue);
 			return new float[]{red, green, blue};
 		}
 

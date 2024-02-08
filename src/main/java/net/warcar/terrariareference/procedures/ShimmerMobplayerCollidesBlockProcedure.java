@@ -94,7 +94,10 @@ public class ShimmerMobplayerCollidesBlockProcedure {
 					world.addEntity(entityToSpawn);
 					transformation.set(true);
 				});
-				if(transformation.get()){return;}
+				if(transformation.get()){
+					stack.shrink(1);
+					return;
+				}
 				RevertCraftsProcedure.executeProcedure(run).ifPresent(itemsAndCount -> {
 					boolean gaveIngredients = false;
 					for (ItemStack ingredient : itemsAndCount.getLeft()) {
